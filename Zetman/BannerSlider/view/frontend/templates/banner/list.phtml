@@ -9,7 +9,7 @@ $banners = $block->getBanners();
                 <?php if ($banner->getUrl()): ?>
                     <a href="<?= $banner->getUrl(); ?>" title="<?= $banner->getName(); ?>">
                 <?php endif; ?>
-                <img src="<?= $banner->getImageUrl(); ?>" alt="<?= $banner->getName(); ?>" width="500px"/>
+                <img src="<?= $banner->getImageUrl(); ?>" alt="<?= $banner->getName(); ?>" width="100%"/>
                 <?php if ($banner->getUrl()): ?>
                     </a>
                 <?php endif; ?>
