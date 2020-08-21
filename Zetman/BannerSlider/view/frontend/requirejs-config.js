@@ -21,7 +21,7 @@
 var config = {
     map: {
         '*': {
-            owlcarousel: 'PHPCuong_BannerSlider/js/owl.carousel'
+            owlcarousel: 'Zetman_BannerSlider/js/owl.carousel'
         }
     }
 };
